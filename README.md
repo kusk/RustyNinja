@@ -1,5 +1,5 @@
 # RustyNinja - A stealthy file copy
-[!WARNING]
+>[!WARNING]
 >Beware this is really really shitty and ugly code that by some miracle works. Basicly a learn rust project for me. So don't judge!
 
 A (in spirit) rust version of NinjaCopy(https://github.com/PowerShellMafia/PowerSploit/blob/master/Exfiltration/Invoke-NinjaCopy.ps1).
