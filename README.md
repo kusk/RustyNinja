@@ -5,6 +5,7 @@
 A (in spirit) rust version of NinjaCopy(https://github.com/PowerShellMafia/PowerSploit/blob/master/Exfiltration/Invoke-NinjaCopy.ps1).
 
 This tool lets you, if you have **Admin privileges**, access and copy otherwise locked files like registry database files(SYSTEM, SAM, SECURITY) or NTDS.dit. 
+pening a read handle to the entire NTFS volume to parse the structure independently. 
 
 >[!TIP]
 >Accessing registry databases and NTDS.dit this way may(might/hopefully/test it goddamn it!) bypass EDR/detection which would be lovely during red team assignments. Other methods such as using ntdsutil, disk shadow, reg save or via RPC can be way too **noisy**.
