@@ -1,6 +1,6 @@
 # RustyNinja - A stealthy file copy
-
-(Beware this is really really shitty and ugly code that by some miracle works. Basicly a learn rust project for me. So don't judge!)
+[!WARNING]
+>Beware this is really really shitty and ugly code that by some miracle works. Basicly a learn rust project for me. So don't judge!
 
 A (in spirit) rust version of NinjaCopy(https://github.com/PowerShellMafia/PowerSploit/blob/master/Exfiltration/Invoke-NinjaCopy.ps1).
 
@@ -17,7 +17,7 @@ If you don't want to XOR the file content for some reason, just give it 0x00 as 
 The program takes two arguments.
 
 Using RustyNinja:
-~~~
+~~~rust
 rustyninja.exe [path to file to copy] [hex value to Xor data with]
 
 Example: 
@@ -28,7 +28,7 @@ Xoring and saving 20185088 bytes of data to: tySXLjFMRndoxTuq
 ~~~
 
 Compiling:
-~~~
+~~~rust
 cargo build --release
 ~~~
 
