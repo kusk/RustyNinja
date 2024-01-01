@@ -1,11 +1,11 @@
-# RustyNinja - A stealthy file copy
+# RustyNinja - A stealthy file exfiltrade
 >[!WARNING]
->Beware this is really really shitty and ugly code that by some miracle works. Basicly a learn rust project for me.
+>Beware this is really really shitty and ugly code that by some miracle works. Basically a learn-rust-project for me.
 
 A (in spirit) rust version of NinjaCopy(https://github.com/PowerShellMafia/PowerSploit/blob/master/Exfiltration/Invoke-NinjaCopy.ps1).
 
-This tool lets you, if you have **Admin privileges**, access and copy otherwise locked files like registry database files(SYSTEM, SAM, SECURITY) or NTDS.dit. 
-pening a read handle to the entire NTFS volume to parse the structure independently. 
+This tool lets you, if you have obtained **Admin privileges**, access and copy otherwise locked files like registry database files(SYSTEM, SAM, SECURITY) or NTDS.dit. 
+This is done by opening a read handle to the entire NTFS volume and then by parsing the structure independently. 
 
 >[!TIP]
 >Accessing registry databases and NTDS.dit this way may(might/hopefully/test it goddamn it!) bypass EDR/detection which would be lovely during red team assignments. Other methods such as using ntdsutil, disk shadow, reg save or via RPC can be way too **noisy**.
