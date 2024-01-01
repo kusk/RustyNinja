@@ -1,4 +1,4 @@
-# RustyNinja - A stealthy file exfiltrade
+# RustyNinja - A stealthy file exfiltrader tool
 >[!WARNING]
 >Beware this is really really shitty and ugly code that by some miracle works. Basically a learn-rust-project for me.
 
